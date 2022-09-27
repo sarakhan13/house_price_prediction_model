@@ -12,7 +12,7 @@ The models built in this experiment are:
 *Various parameters used for other models: Number of bedrooms, number of baths, sq feet living, sq feet loft, 
 floor level, waterfront, view, condition, sq feet above, sq feet of basemenet, year it was built in, year it was renovated, name of city and year it is available.*
 
-3. Multiple Linear Regression: 
+3. Multiple Linear Regression: Predicts price of a house on various parameters listed above.
 
 4. Support Vectore Regression: Predicts price of a house on various parameters listed above.
 
