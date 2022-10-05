@@ -1,9 +1,10 @@
-House Price Prediction Model determines the price of a house when provided with one or more parameters. 
-Such models are important in real estate market to analyze patterns in varying property prices. They are becoming popular as they can help in indicating the market and economic conditions of a place. 
+HOUSE PRICE PREDICTION MODEL (Using Simple Linear, Multiple Linear, Polynomial, SVR, Decision Tree and Random Forest Regression)
 
-The following dataset has been used to build and train predictive models https://www.kaggle.com/datasets/shree1992/housedata?datasetId=46927. 
+A model that predicts the price of a house when provided with one or more input parameters. These models are valuable in real estate market to analyze and understand variations in property prices. They are becoming popular as they can help in indicating the market and economic conditions of a place. 
 
-The models built in this experiment are: 
+The dataset used to train the models is available at, https://www.kaggle.com/datasets/shree1992/housedata?datasetId=46927. 
+
+The six regression models built, trained and tested are: 
 
 1. Simple Linear Regression: Predicts price of a house on the basis of sq feet living. 
 
@@ -20,4 +21,4 @@ floor level, waterfront, view, condition, sq feet above, sq feet of basemenet, y
 
 6. Random Forest Regression: Predicts price of a house on various parameters listed above.
 
-The models are tested against new predictions and their accuracies are evaluated using mean sqaured error and r2 score. 
+After the models are trained, they are prompted with new input values to make further predictions. The models accuracies are compared using "mean sqaured error" and "r2 score".
